@@ -1,7 +1,6 @@
 ---
-layout: http://cepdnaclk.github.io/e16-4yp-open-world-object-detection-and-discovery/docs/
-permalink: README.md
-
+layout: home
+permalink: index.html
 # Please update this with your repository name and title
 repository-name: e16-4yp-open-world-object-detection-and-discovery
 title: Open World Object Detection and Discovery
