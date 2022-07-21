@@ -1,26 +1,26 @@
 ---
 layout: home
 permalink: index.html
-
 # Please update this with your repository name and title
-repository-name: eYY-4yp-project-template
-title:
+repository-name: e16-4yp-open-world-object-detection-and-discovery
+title: Open World Object Detection and Discovery
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
+# Open World Object Detection and Discovery
 
-# Project Title
+Object detection is a well-known computer vision technique for locating instances of objects in images. Open World Object Detection refers to tackling object detection tasks in an open-world setting where the task is to detect a known set of object categories while simultaneously identifying unknown objects. Moreover, it is required to identify instances of unknown objects and subsequently learn to recognize them when training data progressively arrive. An oracle (eg: - a human annotator) is needed to introduce new class labels for the identified unknowns to classify those to relevant object classes in the next increments of learning steps. 
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/16/078, Thilini Deshika, [email](mailto:e16078@eng.pdn.ac.lk), [GitHub](https://github.com/Thilini-Deshika)
+- E/16/168, Sudam Kalpage, [email](mailto:e16168@eng.pdn.ac.lk), [GitHub](https://github.com/sudamkalpage)
+- E/16/369, Rusiru Thushara, [email](mailto:e16369@eng.pdn.ac.lk), [GitHub](https://github.com/thusharakart)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Prof. Roshan G. Ragel, [email](mailto:roshanr@eng.pdn.ac.lk)
+- Prof. Salman Khan, [email](mailto:salman.khan@mbzuai.ac.ae)
+- Mr. Gihan Chanka Jayatilaka [email](mailto:gihan@umd.edu)
 
 #### Table of content
 
@@ -35,11 +35,6 @@ title:
 
 ---
 
-DELETE THIS SAMPLE before publishing to GitHub Pages !!!
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-![Sample Image](./images/sample.png)
-
-
 ## Abstract
 
 ## Related works
@@ -53,7 +48,6 @@ This is a sample image, to show how to add images to your page. To learn more op
 ## Conclusion
 
 ## Publications
-[//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
 <!-- 1. [Semester 7 report](./) -->
 <!-- 2. [Semester 7 slides](./) -->
@@ -64,12 +58,9 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Links
 
-[//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
-
-- [Project Repository](https://github.com/cepdnaclk/repository-name)
-- [Project Page](https://cepdnaclk.github.io/repository-name)
+- [Project Repository](https://github.com/cepdnaclk/e16-4yp-open-world-object-detection-and-discovery/)
+- [Project Page](http://cepdnaclk.github.io/e16-4yp-open-world-object-detection-and-discovery/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
+- [Faculty of Engineering](http://www.eng.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
-[//]: # "Please refer this to learn more about Markdown syntax"
-[//]: # "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
