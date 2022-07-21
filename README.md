@@ -17,7 +17,7 @@ Object detection is a well-known computer vision technique for locating instance
 
 #### External Links
 
-- [Gihub Page](http://cepdnaclk.github.io/e16-4yp-open-world-object-detection-and-discovery/)
+- [Project Page](http://cepdnaclk.github.io/e16-4yp-open-world-object-detection-and-discovery/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [Faculty of Engineering](http://www.eng.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
