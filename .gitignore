@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+ENV/
+
+# Logs and backups
+*.log
+*.bak
+
+# Local development settings
+*.env
+.env
+
+# Other
+*.pyo
+*.~*
