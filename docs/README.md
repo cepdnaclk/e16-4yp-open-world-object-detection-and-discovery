@@ -21,7 +21,15 @@ title: Open World Object Detection and Discovery
 - Mr. Gihan Chanka Jayatilaka [email](mailto:gihan@umd.edu)
 
 #### Project Summary
-Object detection is a well-known computer vision technique for locating instances of objects in images. Open World Object Detection refers to tackling object detection tasks in an open-world setting where the task is to detect a known set of object categories while simultaneously identifying unknown objects. Moreover, it is required to identify instances of unknown objects and subsequently learn to recognize them when training data progressively arrive. An oracle (eg: - a human annotator) is needed to introduce new class labels for the identified unknowns to classify those to relevant object classes in the next increments of learning steps. 
+Object detection is a well-known computer vision technique for locating instances of objects in images. Open World Object Detection refers to tackling object detection tasks in an open-world setting where the task is to detect a known set of object categories while simultaneously identifying unknown objects. Moreover, it is required to identify instances of unknown objects and subsequently learns to recognize them when training data progressively arrive. An oracle (eg: - a human annotator) is needed to introduce new class labels for the identified unknowns to classify those to relevant object classes in the next increments of learning steps. The task was first introduced with Open World Object Detector (ORE), which classifies unknown objects into a single class named 'unknown'. Additionally, ORE incrementally learns new classes that become known in the next training episodes without forgetting previously learned classes. The recent paper OW-DETR introduces a multi-scale context-aware detection framework based on vision transformers to effectively detect unknown objects in the open-world setting. 
+
+The Novel Class Discovery (NCD) is an image recognition problem, where novel classes are classified under the open-world setting. Generalized Category Discovery (GCD) proposes the use of vision transformers with contrastive representation learning to generalize the NCD problem. Here, unlabelled images can belong to either known or novel classes. These unlabelled images are categorized into two categories; 'seen' or 'unseen', using an effective semi-supervised k-means clustering approach. However, the existing detection methods do not tackle open-world detection under the GCD setting. To fill this gap, we proposed an unknown clustering mechanism for OW-DETR by merging the GCD setting with open-world object detection. After identifying the unknown objects as ‘unknown’, they are further clustered into several categories with the use of an unsupervised clustering mechanism. When new class labels are introduced, the model incrementally learns them without forgetting the previously learned classes. 
+
+Key contributions:
+- A Vision transformer-based deep learning model for object detection in open-world settings.
+- An unsupervised clustering mechanism and a semisupervised clustering mechanism for categorizing detected unknown objects.
+- Demonstration of a real-world application by performing the traffic sign detection task comes under autonomous driving.
+
 
 <!--
 #### Table of content
